@@ -1,0 +1,53 @@
+.Container{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+.Container_Header{
+    background-image: url(../../lib/background.jpg);
+    background-size: cover;
+    height: 480px;
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+.Container_small_profile{
+    height:150px; 
+    border-radius:50%; border: 10px solid#FEDE00;
+     /* solid #FEDE00; */
+    cursor: pointer;
+
+}
+.Container_small_profile:hover{
+    border-radius:50%; border: 10px solid #1F9AFE; 
+}
+.Title_heading{
+    font-size: 100px;
+    color: white;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+.subTitle{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    cursor: pointer;
+}
+.subTitle:hover{
+    color: #1F9AFE;
+}
+.aboutSite{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1F9AFE;
+    cursor: pointer;
+}
+.aboutSite,a:hover{
+    color: red;
+}
